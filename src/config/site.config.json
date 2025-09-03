@@ -1,0 +1,322 @@
+{
+  "site": {
+    "name": "Beauty Salon Luce",
+    "title": "ビューティーサロン ルーチェ | 心と体を癒すトータルビューティー",
+    "description": "完全個室のプライベートサロン。最新エステ技術と確かな技術で、あなたの美しさを引き出します。",
+    "ogImage": "/images/og-image.jpg",
+    "favicon": "/favicon.ico"
+  },
+  "brand": {
+    "logo": "/images/logo.png",
+    "primaryColor": "#E91E63",
+    "secondaryColor": "#FFC0CB"
+  },
+  "contact": {
+    "tel": "03-1234-5678",
+    "email": "info@beauty-luce.jp",
+    "address": "東京都渋谷区表参道1-2-3 ビューティービル4F",
+    "businessHours": "10:00〜20:00（最終受付19:00）",
+    "holidays": "毎週火曜日"
+  },
+  "social": {
+    "instagram": "https://instagram.com/beauty_luce",
+    "lineUrl": "https://lin.ee/beautyLuce",
+    "bookingUrl": "https://beauty.hotpepper.jp/sample"
+  },
+  "pages": {
+    "home": [
+      {
+        "type": "announcement",
+        "data": {
+          "message": "【期間限定】新規のお客様限定！全メニュー20%OFF キャンペーン実施中",
+          "type": "success",
+          "dismissible": true
+        }
+      },
+      {
+        "type": "header",
+        "data": {
+          "logo": "/images/logo.png",
+          "menuItems": [
+            { "label": "ホーム", "href": "#" },
+            { "label": "メニュー", "href": "#services" },
+            { "label": "料金", "href": "#pricing" },
+            { "label": "スタッフ", "href": "#staff" },
+            { "label": "アクセス", "href": "#access" },
+            { "label": "予約する", "href": "#", "type": "button" }
+          ],
+          "sticky": true,
+          "showBookingButton": true
+        }
+      },
+      {
+        "type": "hero",
+        "data": {
+          "title": "あなたの美しさを、最大限に",
+          "subtitle": "完全個室のプライベートサロンで、極上のリラクゼーションタイムを",
+          "backgroundImage": "/images/hero-bg.jpg",
+          "overlay": true,
+          "overlayOpacity": 0.4,
+          "ctaText": "今すぐ予約",
+          "ctaAction": "openBooking"
+        }
+      },
+      {
+        "type": "features",
+        "data": {
+          "title": "選ばれる理由",
+          "subtitle": "Beauty Salon Luceが多くのお客様に支持される理由",
+          "items": [
+            {
+              "icon": "✨",
+              "title": "完全個室空間",
+              "description": "プライベートな空間で、周りを気にせずリラックスできます"
+            },
+            {
+              "icon": "💆‍♀️",
+              "title": "経験豊富なスタッフ",
+              "description": "10年以上の経験を持つエステティシャンが施術します"
+            },
+            {
+              "icon": "🌿",
+              "title": "オーガニック製品",
+              "description": "お肌に優しい天然由来成分を使用した製品のみを厳選"
+            }
+          ]
+        }
+      },
+      {
+        "type": "services",
+        "data": {
+          "title": "メニュー",
+          "subtitle": "お悩みに合わせた多彩なメニューをご用意",
+          "items": [
+            {
+              "name": "フェイシャルエステ",
+              "description": "最新機器を使用した本格フェイシャル。小顔効果も期待できます。",
+              "price": "8800",
+              "duration": "60分",
+              "image": "/images/service-facial.jpg"
+            },
+            {
+              "name": "ボディトリートメント",
+              "description": "全身のリンパを流し、むくみ・疲れを解消します。",
+              "price": "12000",
+              "duration": "90分",
+              "image": "/images/service-body.jpg"
+            },
+            {
+              "name": "ブライダルエステ",
+              "description": "挙式前の花嫁様のための特別なトータルケアプラン。",
+              "price": "35000",
+              "duration": "180分",
+              "image": "/images/service-bridal.jpg"
+            }
+          ]
+        }
+      },
+      {
+        "type": "pricing",
+        "data": {
+          "title": "料金プラン",
+          "subtitle": "お得な回数券もご用意しております",
+          "plans": [
+            {
+              "name": "ビジター",
+              "price": "15000",
+              "period": "都度払い",
+              "features": [
+                "全メニュー利用可能",
+                "カウンセリング付き",
+                "アメニティ完備"
+              ]
+            },
+            {
+              "name": "月額会員",
+              "price": "29800",
+              "period": "月",
+              "features": [
+                "月2回まで利用可能",
+                "全メニュー20%OFF",
+                "優先予約",
+                "会員限定イベント招待"
+              ],
+              "highlighted": true,
+              "ctaText": "人気No.1"
+            },
+            {
+              "name": "VIP会員",
+              "price": "59800",
+              "period": "月",
+              "features": [
+                "利用無制限",
+                "全メニュー30%OFF",
+                "専属スタッフ対応",
+                "送迎サービス付き",
+                "高級アメニティ使い放題"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "coupon",
+        "data": {
+          "title": "初回限定クーポン",
+          "description": "このページを見た方限定！",
+          "code": "LUCE2024",
+          "discount": "20%OFF",
+          "validUntil": "2024年12月31日",
+          "terms": [
+            "初回ご利用のお客様限定",
+            "他のクーポンとの併用不可",
+            "事前予約必須"
+          ]
+        }
+      },
+      {
+        "type": "staff",
+        "data": {
+          "title": "スタッフ紹介",
+          "subtitle": "経験豊富なプロフェッショナルがお待ちしております",
+          "members": [
+            {
+              "name": "山田 花子",
+              "role": "チーフエステティシャン",
+              "bio": "エステ歴15年。お客様一人一人に合わせた施術を心がけています。",
+              "image": "/images/staff-1.jpg"
+            },
+            {
+              "name": "佐藤 美咲",
+              "role": "エステティシャン",
+              "bio": "美容専門学校卒業後、都内高級サロンで経験を積みました。",
+              "image": "/images/staff-2.jpg"
+            },
+            {
+              "name": "鈴木 あゆみ",
+              "role": "セラピスト",
+              "bio": "アロマテラピー検定1級保有。癒しの時間をご提供します。",
+              "image": "/images/staff-3.jpg"
+            }
+          ]
+        }
+      },
+      {
+        "type": "gallery",
+        "data": {
+          "title": "サロンギャラリー",
+          "subtitle": "落ち着いた空間で極上のひとときを",
+          "images": [
+            {
+              "src": "/images/gallery-1.jpg",
+              "alt": "サロン内装",
+              "caption": "完全個室のプライベート空間"
+            },
+            {
+              "src": "/images/gallery-2.jpg",
+              "alt": "施術室",
+              "caption": "最新設備を完備した施術室"
+            },
+            {
+              "src": "/images/gallery-3.jpg",
+              "alt": "待合室",
+              "caption": "ゆったりとした待合スペース"
+            },
+            {
+              "src": "/images/gallery-4.jpg",
+              "alt": "パウダールーム",
+              "caption": "充実のパウダールーム"
+            }
+          ]
+        }
+      },
+      {
+        "type": "testimonials",
+        "data": {
+          "title": "お客様の声",
+          "subtitle": "たくさんの喜びの声をいただいております",
+          "items": [
+            {
+              "content": "初めてのエステでしたが、とても丁寧に説明していただき安心して施術を受けられました。肌の調子もとても良くなりました！",
+              "author": "M.K様",
+              "role": "30代・会社員",
+              "rating": 5
+            },
+            {
+              "content": "完全個室なので、リラックスして施術を受けられます。スタッフの方も親切で、通い続けたいサロンです。",
+              "author": "Y.T様",
+              "role": "40代・主婦",
+              "rating": 5
+            },
+            {
+              "content": "ブライダルエステでお世話になりました。当日は最高のコンディションで迎えることができました。ありがとうございました！",
+              "author": "A.S様",
+              "role": "20代・OL",
+              "rating": 5
+            }
+          ]
+        }
+      },
+      {
+        "type": "reservationCta",
+        "data": {
+          "title": "ご予約はお早めに",
+          "subtitle": "人気の時間帯はすぐに埋まってしまいます",
+          "buttonText": "今すぐ予約する",
+          "phoneNumber": "03-1234-5678",
+          "showFab": true
+        }
+      },
+      {
+        "type": "faq",
+        "data": {
+          "title": "よくあるご質問",
+          "subtitle": "お客様からよくいただくご質問をまとめました",
+          "items": [
+            {
+              "question": "予約は必要ですか？",
+              "answer": "はい、完全予約制となっております。お電話またはWebからご予約ください。"
+            },
+            {
+              "question": "キャンセル料はかかりますか？",
+              "answer": "前日までのキャンセルは無料です。当日キャンセルの場合は料金の50%をいただいております。"
+            },
+            {
+              "question": "男性も利用できますか？",
+              "answer": "申し訳ございません。当サロンは女性専用となっております。"
+            },
+            {
+              "question": "駐車場はありますか？",
+              "answer": "専用駐車場はございませんが、近隣にコインパーキングが複数ございます。"
+            }
+          ]
+        }
+      },
+      {
+        "type": "access",
+        "data": {
+          "title": "アクセス",
+          "address": "東京都渋谷区表参道1-2-3 ビューティービル4F",
+          "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.3!2d139.7!3d35.66!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDM5JzM2LjAiTiAxMznCsDQyJzAwLjAiRQ!5e0!3m2!1sja!2sjp!4v1234567890\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
+          "transportation": [
+            "東京メトロ表参道駅 A1出口より徒歩3分",
+            "JR原宿駅 表参道口より徒歩8分"
+          ],
+          "parking": "近隣にコインパーキングあり"
+        }
+      },
+      {
+        "type": "footer",
+        "data": {
+          "copyright": "© 2024 Beauty Salon Luce. All rights reserved.",
+          "links": [
+            { "label": "プライバシーポリシー", "href": "#" },
+            { "label": "利用規約", "href": "#" },
+            { "label": "特定商取引法に基づく表記", "href": "#" }
+          ],
+          "showSocial": true
+        }
+      }
+    ]
+  }
+}
